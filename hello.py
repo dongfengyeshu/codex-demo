@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+
 def greet(name: str = "world", *, upper: bool = False) -> str:
     message = f"Hello, {name}!"
     return message.upper() if upper else message
