@@ -11,4 +11,11 @@
 ```bash
 python hello.py
 python hello.py 你的名字
+python hello.py -u
+python hello.py -u Alice Bob
 ```
+
+## 参数
+
+- 位置参数：要问候的名字，可传多个；不传则使用 `world`
+- `-u`, `--upper`：把问候语转成大写
